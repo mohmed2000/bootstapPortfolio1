@@ -1,0 +1,328 @@
+body{
+    box-sizing: border-box;
+}
+section{
+    width: 80%;
+    margin-left: auto;
+}
+
+/* 
+*********************************************************************************
+*********************************************************************************
+                                   header
+*********************************************************************************
+*********************************************************************************
+*/
+header{
+    background-image: url(../img/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.home .layer{
+    background-color: #0873ff;
+}
+
+/**** nav ****/
+
+.nav-img{
+width: 45%;
+border: 8px solid #2c2f3f;
+}
+.nav-div{
+    left: 0;
+    top: 0;
+}
+
+.bg-dark{
+    background-color: #040b14!important;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+.navbar-nav{
+    top: 40%;
+}
+
+/* ******************************************************************** */
+.nav-div .fa{
+    font-size: 20px;
+    padding: 7px 10px;
+    background-color: #2c2f3f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 2px;
+}
+.nav-div .fa:hover{
+    background-color: #149ddd;
+
+}
+
+.nav-item .fa{
+    font-size: 26px;
+    color: #7c7c80;
+    margin-top: 12px ;
+
+}
+.nav-item:hover .fa
+{
+    color: #149ddd;
+
+}
+.nav-item span{
+    color: #6f7180;
+    text-transform: capitalize;
+}
+.nav-item:hover span{
+    color: #fff;
+
+}
+
+/**** end nav ****/
+
+.home-backg{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    top: 35%;
+}
+.home-title{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}
+.home-h6{
+    font-size: 30px;
+}
+.nav-item .fa-home{
+    color: #149ddd;
+}
+.nav-item .nav-span1{
+    color: #fff;
+}
+
+.animation-title::after{
+    position: relative;
+    content: "";
+    border-bottom: 3px solid rgb(12, 148, 226);
+    animation: title 4s   ,  title2 4s 4s , title 4s 8s infinite , title2 4s 12s infinite, title 4s 16s infinite;
+}
+
+@keyframes title {
+    5% { content: "|";}
+    10% { content: "we|";}
+    15% { content: "web |";}
+    20% { content: "web de|";}
+    25% { content: "web deve|";}
+    30% { content: "web develo|";}
+    35% { content: "web develobe|";}
+    40% { content: "web develober |";}
+    45% { content: "web develobe|";}
+    50% { content: "web develo|";}
+    55% { content: "web deve|";}
+    60% { content: "web de|";}
+    65% { content: "web |";}
+    70% { content: "we|";}
+    75% { content: "|";}
+}
+
+@keyframes title2 {
+    5% { content: "|";}
+    10% { content: "Fr|";}
+    15% { content: "Fron|";}
+    20% { content: "Fronte|";}
+    25% { content: "Frontend|";}
+    30% { content: "Frontend D|";}
+    35% { content: "Frontend Dev|";}
+    40% { content: "Frontend Devlo|";}
+    45% { content: "Frontend Devlobe|";}
+    50% { content: "Frontend Devlober |";}
+    55% { content: "Frontend Devlobe|";}
+    60% { content: "Frontend Devlo|";}
+    65% { content: "Frontend Dev|";}
+    70% { content: "Frontend D|";}
+    75% { content: "Frontend|";}
+    80% { content: "Fronte|";}
+    85% { content: "Fron|";}
+    90% { content: "Fr|";}
+    95% { content: "|";}
+}
+
+/* 
+*********************************************************************************
+*********************************************************************************
+                                   ABOUT
+*********************************************************************************
+*********************************************************************************
+*/
+
+#About{
+    margin-bottom: 175px;
+}
+ .title-h2{
+    color: #173b6c;
+    font-weight: 700;
+    position: relative;
+}
+ .title-h2::after{
+    content: "";
+    width: 55px;
+    height: 3px;
+    background-color: #149ddd;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 15px;
+}
+#About .about-h3{
+    color: #173b6c;
+
+}
+ .fa{
+    color: #0d89c2;
+    margin-right: 10px;
+    font-weight: 800;
+}
+.counter .fa{
+    font-size: 50px;
+}
+#About span{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+
+/* 
+*********************************************************************************
+*********************************************************************************
+                                   SKILLS
+*********************************************************************************
+*********************************************************************************
+*/
+
+#skills{
+    background-color: #e3eff5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px auto;
+}
+
+/* 
+*********************************************************************************
+*********************************************************************************
+                                   cv section
+*********************************************************************************
+*********************************************************************************
+*/
+.sumary{
+    margin-bottom: 70px;
+}
+ .cv-content{
+    border-left: 2px solid #1f5297;
+    padding-left: 20px ;
+    margin-top: -3px;
+padding-bottom: 1px;
+position: relative;}
+
+ .cv-content::after{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-55%,-5%);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #1f5297;
+}
+.cv-h3{
+    font-size: 26px;    font-weight: 700;
+    font-family: Raleway, sans-serif;
+
+}
+.cv-h4{
+    font-size: 18px;    font-weight: 700;
+
+
+}
+
+.cv-span
+{
+    background-color: #e4edf9;
+    background-size: 40px;
+    padding: 5px 15px;
+    font-weight: 600;
+
+}
+
+
+#customer{
+    background-color:#dee7f7;
+    margin-bottom: 80px;
+}
+#customer .slice{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10%;
+    text-align: center;
+    position: relative;
+    z-index: 5258;
+}
+#customer .mtlt{
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 40%;
+    top: 82%;
+    transform: translate(-100%);
+    transform: rotate(45deg);
+}
+#customer .fa{
+    color:#d2dff5;
+    font-size: 22px;
+}
+#customer .fa-quote-left{
+        transform: translate(0%,-40%);
+}
+#customer .fa-quote-right{
+    transform: translate(0%,40%);
+}
+#customer .h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+#customer .p{
+    color: #7c7c80;
+}
+
+/* 
+*********************************************************************************
+*********************************************************************************
+                                   contact section
+*********************************************************************************
+*********************************************************************************
+*/
+
+.content .fa{
+    font-size: 25px;
+    background-color: #149ddd;
+    border-radius: 50%;
+    width: 50px;
+    padding: 15px 15px;
+    color: #dff3fc;
+    text-align: center;
+}
+
+.footer-img{
+    width: 10%;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #d2dff5;
+    margin-bottom: 0;
+}
